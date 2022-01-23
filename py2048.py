@@ -167,6 +167,14 @@ def main():
 			guiBoard.destroy()
 
 	def inputButtons(): # Controls
+		guiBoard.bind("<Up>", lambda x: [moveUp(boardInt), updateBoard(boardInt)])
+		guiBoard.bind("<Left>", lambda x: [moveLeft(boardInt), updateBoard(boardInt)])
+		guiBoard.bind("<Down>", lambda x: [moveDown(boardInt), updateBoard(boardInt)])
+		guiBoard.bind("<Right>", lambda x: [moveRight(boardInt), updateBoard(boardInt)])
+		guiBoard.bind("w", lambda x: [moveUp(boardInt), updateBoard(boardInt)])
+		guiBoard.bind("a", lambda x: [moveLeft(boardInt), updateBoard(boardInt)])
+		guiBoard.bind("s", lambda x: [moveDown(boardInt), updateBoard(boardInt)])
+		guiBoard.bind("d", lambda x: [moveRight(boardInt), updateBoard(boardInt)])
 		spacer = Button(guiBoard, text = " ", bg="#112233",\
 			activebackground="#112233", relief="flat",\
 			highlightbackground="#112233")
