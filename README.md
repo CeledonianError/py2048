@@ -1,11 +1,13 @@
 # py2048
-I wrote 2048 in Python. It's very messy, uses tkinter, and expects you to have the fonts Atkinson Hyperlegible (https://brailleinstitute.org/freefont) and Monospace installed (this is easy to change).
+I wrote 2048 in Python. It's very messy, uses tkinter, ~~and expects you to have the fonts Atkinson Hyperlegible (https://brailleinstitute.org/freefont) and Monospace installed (this is easy to change).~~
 
-If you want to change the fonts:
+~~If you want to change the fonts:~~
 
-Line 135 - Atkinson Hyperlegible
+~~Line 135 - Atkinson Hyperlegible~~
 
-Line 155 - Monospace
+~~Line 155 - Monospace~~
+
+Apparently it has no issues if you don't have those fonts. Just note that it may look funky if you don't.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 My teacher wanted me to write the following, hence why it's so formal:
 
